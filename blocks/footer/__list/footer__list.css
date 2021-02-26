@@ -1,0 +1,23 @@
+.footer__list {
+    padding-bottom: 32px;
+}
+
+
+.footer__list:last-of-type {
+    padding-bottom: 48px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer__list {
+      display: inline;
+      padding-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer__list:last-of-type {
+        padding-bottom: 0;
+    }
+}
