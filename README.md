@@ -12,4 +12,4 @@
 * Адаптивная вёрстка
 * БЭМ
 
-**Ссылка на проэкт https://github.com/Venom163/russian-travel.git**
+**Ссылка на проэкт https://venom163.github.io/russian-travel/**
