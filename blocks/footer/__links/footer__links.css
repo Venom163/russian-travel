@@ -6,7 +6,8 @@
 
 
 @media screen and (min-width: 768px) {
-    .footer__links {
-      display: inline;
-    }
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
 }

@@ -5,33 +5,33 @@
 
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    padding: 64px 0 24px 16px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0 24px 16px;
+  box-sizing: border-box;
 }
 
-  
+
 @media screen and (min-width: 768px) {
-    .footer {
-      min-width: 768px;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 88px 24px 24px 24px;
-    }
+  .footer {
+    min-width: 768px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 88px 24px 24px 24px;
+  }
 }
 
 
 @media screen and (min-width: 1024px) {
-    .footer {
-      min-width: 1024px;
-      padding: 92px 48px 24px 48px;
-    }
+  .footer {
+    min-width: 1024px;
+    padding: 92px 48px 24px 48px;
+  }
 }
 
 
 @media screen and (min-width: 1280px) {
-    .footer {
-      min-width: 1280px;
-    }
+  .footer {
+    min-width: 1280px;
+  }
 }
