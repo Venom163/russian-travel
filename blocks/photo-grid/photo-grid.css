@@ -4,20 +4,29 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-gap: 16px;
-    margin: 92px 48px 0 48px;
+    margin: 92px auto 0 auto;
     overflow: hidden;
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px){
+    .photo-grid {
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        margin: 88px 24px;
+        max-width: 720px;
+        margin: 88px auto;
         grid-gap: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid {
+        max-width: 288px;
         grid-gap: 12px;
-        margin: 64px 16px;
+        margin: 64px auto 0 auto;
     }
 }

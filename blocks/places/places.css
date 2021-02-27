@@ -1,6 +1,6 @@
 .places {
   box-sizing: border-box;
-  overflow: hidden;
+  
 }
 
 
@@ -20,6 +20,6 @@
 
 @media screen and (min-width: 1280px) {
   .places {
-    min-width: 1280px;
+    max-width: 1280px;
   }
 }
