@@ -11,6 +11,7 @@
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   padding-top: 64px;
+  overflow: hidden;
 }
 
 

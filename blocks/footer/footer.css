@@ -20,6 +20,7 @@
     justify-content: space-between;
     padding: 88px 0px 24px 0px;
     margin: 0 auto;
+    overflow: hidden;
   }
 }
 
