@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-gap: 16px;
-    margin: 92px auto 0 auto;
+    margin: 92px auto 92px auto;
     overflow: hidden;
     max-width: 1184px;
 }
@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
-        margin: 88px auto;
+        margin: 88px auto 88px auto;
         grid-gap: 16px;
     }
 }
@@ -27,6 +27,6 @@
     .photo-grid {
         max-width: 288px;
         grid-gap: 12px;
-        margin: 64px auto 0 auto;
+        margin: 64px auto 64px auto;
     }
 }
