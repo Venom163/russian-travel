@@ -9,7 +9,7 @@
   flex-direction: column;
   padding: 64px 0 24px 16px;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
 }
 
 
@@ -18,7 +18,8 @@
     max-width: 720px;
     flex-direction: row;
     justify-content: space-between;
-    padding: 88px 24px 24px 24px;
+    padding: 88px 0px 24px 0px;
+    margin: 0 auto;
   }
 }
 
@@ -26,7 +27,8 @@
 @media screen and (min-width: 1024px) {
   .footer {
     max-width: 928px;
-    padding: 92px 48px 24px 48px;
+    padding: 92px 0px 24px 0px;
+    margin: 0 auto;
   }
 }
 
@@ -34,5 +36,7 @@
 @media screen and (min-width: 1280px) {
   .footer {
     max-width: 1184px;
+    margin: 0 auto;
+    padding: 92px 0 24px 0;
   }
 }
