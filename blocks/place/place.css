@@ -9,10 +9,10 @@
 
 .place {
   font-display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
   padding-bottom: 50px;
 }
-
 
 .place:last-of-type {
   padding-bottom: 0;
@@ -22,8 +22,6 @@
 @media (min-width: 768px) { 
   .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
     padding: 0 0 73px 0;
   }
 }
@@ -33,10 +31,6 @@
   .place {
     gap: 48px 28px;
   }
-
-  .place:last-of-type {
-    padding-bottom: 0;
-  }
 }
 
 
@@ -45,22 +39,11 @@
     gap: 48px 32px;
     padding: 0 0 80px 0;
   }
-
-
-  .place:last-of-type {
-    padding-bottom: 0;
-  }
 }
 
 
 @media (min-width: 1280px) {
   .place {
-    padding: 0 0 80px 0;
     gap: 48px 40px;
-  }
-
-
-  .place:last-of-type {
-    padding-bottom: 0;
   }
 }

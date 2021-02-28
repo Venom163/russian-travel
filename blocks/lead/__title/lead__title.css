@@ -1,6 +1,6 @@
 .lead__title {
     text-rendering: optimizeLegibility;
-    margin-bottom: 0;
+    margin: 56px 0 0 0;
     max-width: 720px;
     font-weight: 900;
     font-size: 96px;

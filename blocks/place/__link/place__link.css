@@ -1,5 +1,4 @@
 .place__link {
-  display: block;
   color: #fff;
   font-size: 18px;
   line-height: 22px;
@@ -7,17 +6,11 @@
   font-style: normal;
   font-weight: 400;
   text-align: left;
+  display: inline;  
 }
 
 
 .place__link:hover {
-  opacity: .3;
-  text-decoration: none;
+  opacity: .8;
 }
  
-
-@media screen and (min-width: 768px) {
-  .place__link {
-    display: block;
-  }
-}
