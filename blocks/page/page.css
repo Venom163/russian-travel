@@ -3,6 +3,7 @@
   text-rendering: optimizeLegibility;
   height: 100%;
   width: 100%;
+  min-width: 320px;
   margin: 0 auto;
   background-color: #2a2c2f;
   color: #fff;
