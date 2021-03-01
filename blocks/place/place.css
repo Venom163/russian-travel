@@ -5,22 +5,17 @@
   padding-bottom: 50px;
 }
 
+
 .place:last-of-type {
   padding-bottom: 0;
 }
 
 
-@media (min-width: 768px) { 
-  .place {
-    display: grid;
-    padding: 0 0 73px 0;
-  }
-}
-
-
 @media (min-width: 768px) {
   .place {
+    display: grid;
     gap: 48px 28px;
+    padding: 0 0 73px 0;
   }
 }
 
